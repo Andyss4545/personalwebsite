@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Porfolio</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/fontawesome.min.css" integrity="sha512-d0olNN35C6VLiulAobxYHZiXJmq+vl+BGIgAxQtD5+kqudro/xNMvv2yIHAciGHpExsIbKX3iLg+0B6d0k4+ZA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+<body>
+
+           <div class="desktop-nav">
+
+            <div class="desktop-logo">
+                 <p>Temitope Omosebi</p>
+            </div>
+            <div class="desktop-menu">
+                 <ul class="desktop-list">
+                      <li><a href="#about">About Me</a></li>
+                      <li><a href="#resume">Resume</a></li>
+                      <li><a href="#experience">Experience</a></li>
+                      <li><a href="#portfolio">Portfolio</a></li>
+                      <li><a href="#contact">Contact</a></li>
+                 </ul>
+            </div>
+
+           </div>
+
+           <div class="desktop-nav mobile-nav">
+            <div class="desktop-logo">Temitope Omosebi</div>
+            <div class="mobile-menu">
+                <div class="mobile-icon" onclick="toggleMenu()">
+                     <span></span>
+                     <span></span>
+                     <span></span>
+                </div>
+
+                <div class="menu-links">
+                        <li><a href="#about" onclick="toggleMenu()">About Me</a></li>
+                        <li><a href="#resume" onclick="toggleMenu()">Resume</a></li>
+                        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                        <li><a href="#portfolio" onclick="toggleMenu()">Portfolio</a></li>
+                        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                </div>
+            </div>
+
+           </div>
+
+           <div class="hero">
+
+                 <div class="hero_container">
+
+                 <div class="hero_img_Container">
+                   <img src="/assets/temitope.jpg" alt="">
+                 </div>
+                   <div class="hero_profile_Container">
+                    <div class="heroDetails">
+                        <p class="heroWelcome">WELCOME TO MY WORLD</p>
+                        <div class="heroName">
+                            <h1 class="heroIntro herotext">I'm </h1>
+                            <h1 class="heroMyName herotext"> Temitope Omosebi</h1>
+                        </div>
+                        <p class="heroLeftJob">Frontend And Wordpress Developer</p>
+                    </div>
+                       
+                       <div class="heroProfileBtns">
+                           <div class="heroBtns">
+                                <button class="btn btn-color-1" onclick="window.open('/assets/my_resume.pdf')">My Resume</button>
+                                <button class="btn btn-color-2" onclick="location.href='./#contact'">Contact Me</button>
+                           </div>
+
+                          
+
+                           <div class="heroSocialLinks">
+                            <img src="/assets/github.png" alt="Github Profile" class="icon" onclick="location.href='http://github.com'">
+                            <img src="/assets/linkedin.png" alt="linkedin Profile" class="icon" onclick="location.href='http://linkedin.com'" >
+                           </div>
+
+                       </div>
+                 </div>
+
+                </div>
+
+           </div>
+
+           <section class="about_section">
+                 <div class="about_titles">
+                      <p class="about_title_text">Know More About Me</p>
+                      <h1 class="about_title_heading">About</h1>
+
+                 </div>
+
+                 <div class="about_details">
+                    <div class="about_left_column">
+
+                          <div class="about_boxes">
+                                 <div class="about_box">
+                                    <i class="fa-solid fa-laptop-code img_icon"></i>
+                                         <h4>Coding Experience</h4>
+                                         <p>5+ Years</p>
+                                         <p>Frontend Development</p>
+                                 </div> 
+
+                                 <div class="about_box">
+                                    <i class="fa-brands fa-wordpress img_icon"></i>
+                                   <h4>CMS Experience</h4>
+                                   <p>8+ Years</p>
+                                   <p>Wordpress Development</p>
+                             </div> 
+                          </div>
+
+                          <div class="about_description">
+                              I'm Temitope Omosebi, a skilled frontend and WordPress developer specializing in creating visually appealing 
+                              and user-friendly websites. Proficient in HTML, CSS,JavaScript and ReactJS, 
+                              I excel at translating design concepts into responsive interfaces. My expertise 
+                              extends to WordPress, where I craft custom themes and integrate plugins to meet clients' unique goals.
+                              Committed to staying abreast of web development trends, I deliver cutting-edge solutions with a meticulous and goal-oriented approach. 
+                              Effective communication and collaboration are key aspects of my work, ensuring the delivery of high-quality websites that leave a lasting 
+                              impression in the dynamic field of web development.
+                          </div>
+
+                    
+                    </div>
+
+                    <div class="about_right">
+                        <img class="about_right_img" src="/assets//person.jpg" alt="temitope">
+                   </div>
+                  
+                  </div>
+           </section>
+
+           <section class="skills_section">
+               <div class="skills_titles">
+                    <p class="skills_title_text">Explore my</p>
+                    <h1 class="skills_title_heading">Skills </h1>
+               </div>
+
+               <div class="skills_category">
+                     <div class="skills_category_1">
+                             <p class="skills_category_title">Frontend Development</p>
+                             <div class="skills_category_box">
+                                   <div class="skills_box">
+                                        <div class="animate__animated animate__bounce skills_box_info">
+                                              <i class="fa-brands fa-html5 icon_box"></i>
+                                              <div class="skills_box_details">
+                                                    <h3>HTML</h3>
+                                                    <p>Professional</p>
+                                              </div>
+                                        </div>
+
+                                        <div class="skills_box_info">
+                                          <i class="fa-brands fa-css3 icon_box"></i>
+                                             <div class="skills_box_details">
+                                                   <h3>CSS</h3>
+                                                   <p>Professional</p>
+                                             </div>
+                                        </div>
+
+                                       <div class="skills_box_info">
+                                          <i class="fa-brands fa-js icon_box"></i>
+                                           <div class="skills_box_details">
+                                              <h3>JavaScript</h3>
+                                              <p>Professional</p>
+                                            </div>
+                                       </div>
+
+                                        <div class="skills_box_info">
+                                          <i class="fa-brands fa-bootstrap icon_box"></i>
+                                             <div class="skills_box_details">
+                                                   <h3>Bootstrap</h3>
+                                                   <p>Intermediate</p>
+                                             </div>
+                                        </div>
+                                   </div>
+
+                                   <div class="skills_box">
+                                        <div class="skills_box_info">
+                                          <i class="fa-brands fa-react icon_box"></i>
+                                              <div class="skills_box_details">
+                                                    <h3>ReactJS</h3>
+                                                    <p>Experienced</p>
+                                              </div>
+                                        </div>
+
+                                        <div class="skills_box_info">
+                                          <img width="25" height="25" src="https://img.icons8.com/ios-filled/50/FFFFFF/redux.png" alt="redux"/>
+                                             <div class="skills_box_details">
+                                                   <h3>Redux</h3>
+                                                   <p>Intermediate</p>
+                                             </div>
+                                        </div>
+
+                                       <div class="skills_box_info">
+                                          <i class="fa-brands fa-react icon_box"></i>
+                                        <div class="skills_box_details">
+                                              <h3>Context API</h3>
+                                              <p>Intermediate</p>
+                                        </div>
+                                       </div>
+
+                                        <div class="skills_box_info">
+                                          <i class="fa-brands fa-wordpress icon_box"></i>
+                                          <div class="skills_box_details">
+                                                <h3>Wordpress</h3>
+                                                <p>Professional</p>
+                                          </div>
+                                    </div>
+                                   </div>
+                             </div>
+                     </div>
+
+                     <div class="skills_category_1">
+                         <p class="skills_category_title">Other Technologies</p>
+                         <div class="skills_category_box">
+                               <div class="skills_box">
+                                    <div class="skills_box_info">
+                                          <i class="fa-solid fa-code-branch icon_box"></i>
+                                             <div class="skills_box_details">
+                                                   <h3>Git/GitHub</h3>
+                                                   <p>Experienced</p>
+                                             </div>
+                                        </div>
+
+                                    <div class="skills_box_info">
+                                          <i class="fa-brands fa-node-js icon_box"></i>
+                                         <div class="skills_box_details">
+                                               <h3>NodeJS</h3>
+                                               <p>Intermediate</p>
+                                         </div>
+                                    </div>
+
+                                   <div class="skills_box_info">
+                                    <img width="25" height="25" src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/24/FFFFFF/external-firebase-a-googles-mobile-platform-that-helps-you-quickly-develop-high-quality-apps-logo-bold-tal-revivo.png" alt="external-firebase-a-googles-mobile-platform-that-helps-you-quickly-develop-high-quality-apps-logo-bold-tal-revivo"/>
+                                    <div class="skills_box_details">
+                                          <h3>Firebase</h3>
+                                          <p>Experienced</p>
+                                    </div>
+                                   </div>
+
+                                    <div class="skills_box_info">
+                                         <i class="fa-brands fa-aws icon_box"></i>
+                                         <div class="skills_box_details">
+                                               <h3>AWS</h3>
+                                               <p>Intermediate</p>
+                                         </div>
+                                    </div>
+                               </div>
+
+                               <div class="skills_box">
+                                    <div class="skills_box_info">
+                                          <i class="fa-brands fa-npm icon_box"></i>
+                                          <div class="skills_box_details">
+                                                <h3>NPM</h3>
+                                                <p>Experienced</p>
+                                          </div>
+                                    </div>
+
+                                    <div class="skills_box_info">
+                                          <img width="25" height="25" src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/25/FFFFFF/external-mongodb-a-cross-platform-document-oriented-database-program-logo-bold-tal-revivo.png" alt="external-mongodb-a-cross-platform-document-oriented-database-program-logo-bold-tal-revivo"/>
+                                         <div class="skills_box_details">
+                                               <h3>MongoDB</h3>
+                                               <p>Professional</p>
+                                         </div>
+                                    </div>
+
+                                   <div class="skills_box_info">
+                                    <img width="25" height="25" src="https://img.icons8.com/ios/25/FFFFFF/windows10-personalization.png" alt="windows10-personalization"/>
+                                    <div class="skills_box_details">
+                                          <h3>Graphic Design</h3>
+                                          <p>Intermediate</p>
+                                    </div>
+                                   </div>
+
+                                   <div class="skills_box_info">
+                                    <img width="25" height="25" src="https://img.icons8.com/ios/25/FFFFFF/web.png" alt="web"/>
+                                    <div class="skills_box_details">
+                                          <h3>UI/UX</h3>
+                                          <p>Intermediate</p>
+                                    </div>
+                                   </div>
+                               </div>
+                         </div>
+                     </div>
+               </div>
+         </section>
+
+         <section class="portfolio_section">
+            <div class="portfolio_titles">
+                  <p class="portfolio_title_text">CHECKOUT MY PORTFOLIOS </p>
+                  <h1 class="portfolio_title_heading">PORTFOLIOS</h1>
+             </div>
+
+             
+             <div class="portfolio_flex">
+                     <div class="portfolio_box">
+                             <img src="/assets//JOJO FOOD FLYER.png"  class="image_zoom" onclick="changeImage(this)" alt="JOJO FOODS">
+
+                             <div class="portfolio_details">
+                                     <article>
+                                          This is a netflix clone application I created out 
+                                          of boredon. It is a clean video streaing website.
+                                    </article>
+
+                                    <div class="heroBtns">
+                                          <button class="btns btn-color" onclick="location.href='https://idyllic-snickerdoodle-02f2b1.netlify.app/'">Live Demo</button>
+                                          <button class="btns btn-color" onclick="location.href='https://github.com/Andyss4545/Netflix-clone-app'">GitHub</button>
+                                     </div>
+                             </div>
+                     </div>
+
+                     <div class="portfolio_box">
+                        <img src="/assets/NETFLIX CLONED.png" class="image_zoom" onclick="changeImage(this)" alt="Food Recipe">
+
+                        <div class="portfolio_details">
+                                <article>
+                                    Jojo food is an imaginary food recipe web application 
+                                    I created out of my creative idea
+                               </article>
+
+                               <div class="heroBtns">
+                                     <button class="btns btn-color" onclick="location.href='https://jojo-foods.web.app/'">Live Demo</button>
+                                     <button class="btns btn-color" onclick="location.href='https://github.com/Andyss4545/jojo-foods'">GitHub</button>
+                                </div>
+                        </div>
+                     </div>
+
+                     <div class="portfolio_box">
+                        <img src="/assets/Netflix.png" class="image_zoom" onclick="changeImage(this)" width="800" height="739" alt="Netflix clone">
+
+                        <div class="portfolio_details">
+                                <article>
+                                     This is a netflix clone application I created out 
+                                     of boredon. .It is a clean video streaing website
+                               </article>
+
+                               <div class="heroBtns">
+                                     <button class="btns btn-color" onclick="location.href='https://idyllic-snickerdoodle-02f2b1.netlify.app/'">Live Demo</button>
+                                     <button class="btns btn-color" onclick="location.href='https://github.com/Andyss4545/Netflix-clone-app'">GitHub</button>
+                                </div>
+                        </div>
+                     </div>
+
+                     <div class="portfolio_box">
+                        <img src="/assets/food recipe.png" class="image_zoom" onclick="changeImage(this)" alt="Food Recipe">
+
+                        <div class="portfolio_details">
+                                <article>
+                                    Jojo food is an imaginary food recipe web application 
+                                    I created out of my creative idea
+                               </article>
+
+                               <div class="heroBtns">
+                                     <button class="btns btn-color" onclick="location.href='https://jojo-foods.web.app/'">Live Demo</button>
+                                     <button class="btns btn-color" onclick="location.href='https://github.com/Andyss4545/jojo-foods'">GitHub</button>
+                                </div>
+                        </div>
+                     </div>
+
+                     <div class="portfolio_box">
+                        <img src="/assets/Netflix.png" class="image_zoom" onclick="changeImage(this)" width="800" height="739" alt="Netflix clone">
+
+                        <div class="portfolio_details">
+                                <article>
+                                     This is a netflix clone application I created out 
+                                     of boredon. It is a clean video streaing website.
+                               </article>
+
+                               <div class="heroBtns">
+                                     <button class="btns btn-color" onclick="location.href='https://idyllic-snickerdoodle-02f2b1.netlify.app/'">Live Demo</button>
+                                     <button class="btns btn-color" onclick="location.href='https://github.com/Andyss4545/Netflix-clone-app'">GitHub</button>
+                                </div>
+                        </div>
+                </div>
+             </div>
+
+         </section>
+
+         <section class="contact">
+            <div class="contact_heading">
+                  <p>Get In Touch With Me</p>
+                  <h1>Contact</h1>
+            </div>
+            <div class="contact_contact">
+                  <div class="contact_section ">
+                         <div class="contact_about">
+                                  <h3>Request For A Quote</h3>
+                                  <p class="contact_about_p">Have a job for me? Get in touch with me to get a quote</p>
+                                  <div class="contact_details">
+                                         <div class="contact_info">
+                                            <i class="fa-solid fa-location-dot"></i>
+                                             <div class="contact_info_flex">
+                                                <span>Address:</span>
+                                                <p>Airport Road, Lagos Nigeria</p>
+                                             </div>
+                                         </div>
+
+                                         <div class="contact_info">
+                                             <i class="fa-solid fa-phone"></i>
+                                               <div class="contact_info_flex">
+                                                  <span>Phone:</span>
+                                                  <p>+2349165745183</p>
+                                               </div>
+                                             
+                                         </div>
+
+                                         <div class="contact_info">
+                                            <i class="fa-solid fa-envelope"></i>
+                                              <div class="contact_info_flex">
+                                                <span>Email:</span>
+                                                <p>andystemidwebguru@gmail.com</p>
+                                              </div>
+                                         </div>
+                                  </div>
+                         </div>
+
+                         <div class="contact_form">
+                                <form action="post" method="get">
+                                    <div class="form_group_flex">
+                                          <div>
+                                             <label for="fullname">FULLNAME</label>
+                                             <input type="text" id="fullname" name="name" placeholder="Your full name...">
+                                          </div>
+
+                                          <div>
+                                                <label for="email">EMAIL</label>
+                                                <input type="email" id="email" name="email" placeholder="Your email address...">
+                                          </div>
+
+                                    </div>
+                                    <label for="subject">SUBJECT</label>
+                                    <input type="text" id="subject" placeholder="Subject">
+
+                                    <label for="message">MESSAGE</label>
+                                    <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+
+                                          <input class="submit" type="submit" value="REQUEST A QUOTE">
+                                </form>
+                         </div>
+                  </div>
+            </div>
+         </section>
+</body>
+
+<script src="index.js"></script>
+</html>
