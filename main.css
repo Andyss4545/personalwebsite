@@ -535,12 +535,18 @@ body{
     margin-bottom: 1.5rem;
 }
 
-.contact_contact{
+ .contact_contact{
     /* width: 100%; */
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} 
+
+ /* .contact_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  */
 
 .contact_heading{
     text-align: center;
@@ -566,22 +572,26 @@ body{
 
 .contact_about{
     background-color: #28414d;
-    padding: 2.5rem;
-    flex: 0.3;
+    padding: 2rem 0rem;
+    flex: 0.4;
+    /* width: 100%; */
 }
 
 .contact_about h3{
     color: #edf2f4;
     font-size: 30px;
+    margin-left: 2rem;
 }
 
 .contact_about_p{
     font-size: 20px;
     color: #ececec;
+    margin-left: 2rem;
 }
 
 .contact_info{
     display: flex;
+    margin-left: 1rem;
 }
 
 .contact_info .fa-solid{
@@ -617,15 +627,25 @@ body{
 
 .form_group_flex{
     display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 2rem;
     width: 100%;
-    justify-content: space-between;
 }
+
+.name_group{
+    width: 100%;
+}
+
+ .email_group{
+    width: 100%;
+} 
 
 .form_group_flex input{
      padding: 13px 80px 13px 0px;
 }
 
-input[type=text], textarea {
+input[type=text],[type=email], textarea {
     width: 100%;
     padding: 12px; 
     border: 1px solid #ccc;
@@ -649,6 +669,46 @@ input[type=text], textarea {
 
 .submit:hover{
     background-color: #25566d;
+}
+
+.footer-menu{
+    margin-top: 6rem;
+}
+
+.footer-menu > ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 1rem;
+    font-size: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.footer-menu > ul > li{
+   list-style-type: none;
+   padding: 0 20px 0 20px;
+   margin-top: 15px;
+}
+
+.footer-menu > ul > li > a{
+   text-decoration: none;
+   text-decoration-color: white;
+   color: black;
+   font-size: 24px;
+}
+
+.footer-menu > ul > li > a:hover{
+   text-decoration: underline;
+   color: grey;
+   text-underline-offset: 1rem;
+   text-decoration-color: rgb(181, 181, 181);
+}
+
+.footer_copyright{
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(114, 114, 114);
 }
 
 
